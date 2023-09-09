@@ -1,0 +1,41 @@
+/* components/func-grid/index.wxss */
+// .grid-container {
+//   margin-top: 10rpx;
+// }
+
+// .grid-icon {
+//   position: relative;
+//   top: 10rpx;
+// }
+
+// .grid-text {
+//   position: relative;
+//   top: 18rpx;
+// }
+
+.grid-container {
+  display: grid;
+  border-top: 1px solid #ccc;
+  grid-template-columns: repeat(auto-fit, minmax(180rpx, 1fr));
+  align-content: center;
+}
+
+.grid-item {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: .1em;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 3em;
+
+  .grid-icon {
+    
+  }
+  .grid-text {
+    margin-top: .5em;
+    font-size: .3em;
+  }
+}

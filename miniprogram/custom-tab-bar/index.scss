@@ -1,0 +1,44 @@
+.middle-icon-wrapper {
+  position: relative;
+}
+
+$fontSize: 2rem;
+$padding: .4em;
+$Y: -35%;
+
+.middle-icon {
+  position: relative;
+  background-color: #fff;
+  font-size: $fontSize;
+  border-radius: 50%;
+  padding: $padding;
+  transform: translateY($Y);
+  z-index: 99;
+}
+
+.middle-icon__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #85b737;
+    border-radius: 50%;
+}
+
+.middle-icon__text {
+  position: absolute;
+  top:  calc((1 - .35) * 2rem + .8em);
+  left: 50%;
+  z-index: 100;
+  transform: translate(-50%, 35%);
+}
+
+.custom-tab-bar {
+  position: relative;
+  z-index: 1;
+  display: none;
+}
+.attached {
+  display: initial;
+}

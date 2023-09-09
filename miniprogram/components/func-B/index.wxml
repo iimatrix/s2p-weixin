@@ -1,0 +1,51 @@
+<!--components/func-B/index.wxml-->
+ <!-- 功能B弹窗 -->
+ <van-popup show="{{ show }}" bind:close="onCloseFB" z-index="999" custom-style="width: calc(100% - 1em)">
+      <view class="popup-container">
+        <view class="popup-header"><text>功能B</text></view>
+          <van-grid border="{{false}}">
+            <van-grid-item >
+              <van-icon class="grid-icon" slot="icon" size="50px" name="birthday-cake-o" />
+              <text class="grid-text" slot="text">功能1</text>
+            </van-grid-item>
+            <van-grid-item >
+              <van-icon class="grid-icon" slot="icon" size="50px" name="bar-chart-o" />
+              <text class="grid-text" slot="text">功能2</text>
+            </van-grid-item>
+            <van-grid-item >
+            
+              <van-icon class="grid-icon" slot="icon" size="50px" name="hotel-o" />
+              <text class="grid-text" slot="text">功能3</text>
+            </van-grid-item>
+            <van-grid-item >
+              <van-icon class="grid-icon" slot="icon" size="50px" name="closed-eye" />
+              <text class="grid-text" slot="text">功能4</text>
+            </van-grid-item>
+            <van-grid-item >
+              <van-icon class="grid-icon" slot="icon" size="50px" name="qr" />
+              <text class="grid-text" slot="text">功能5</text>
+            </van-grid-item>
+            <van-grid-item >
+              <van-icon class="grid-icon" slot="icon" size="50px" name="logistics" />
+              <text class="grid-text" slot="text">功能6</text>
+            </van-grid-item>
+            <van-grid-item >
+              <van-icon class="grid-icon" slot="icon" size="50px" name="pending-payment" />
+              <text class="grid-text" slot="text">功能7</text>
+            </van-grid-item>
+            <van-grid-item >
+              <van-icon class="grid-icon" slot="icon" size="50px" name="idcard" />
+              <text class="grid-text" slot="text">功能8</text>
+            </van-grid-item>
+            <van-grid-item >
+            
+              <van-icon class="grid-icon" slot="icon" size="50px" name="shrink" />
+              <text class="grid-text" slot="text">功能9</text>
+            </van-grid-item>
+            <van-grid-item >
+              <van-icon class="grid-icon" slot="icon" size="50px" name="guide-o" />
+              <text class="grid-text" slot="text">功能10</text>
+            </van-grid-item>
+          </van-grid> 
+      </view>
+  </van-popup>

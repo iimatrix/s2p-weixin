@@ -1,0 +1,11 @@
+<!--components/navbar/Navbar.wxml-->
+
+<view>
+  <van-nav-bar
+    class="nav-bar"
+    custom-style="background: #282a3a"
+  >
+  <text slot="title">{{title}}</text>
+    <van-icon wx:if="{{showInfo}}" name="comment-o" color="#fff" size="1.35em" slot="left" info="{{info}}" />
+  </van-nav-bar>
+</view>

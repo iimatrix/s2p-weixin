@@ -1,0 +1,17 @@
+<view style="position: relative;margin-top: 10rpx;">
+    <!-- <van-grid column-num="{{columnNum}}" icon-size="100rpx">
+      <van-grid-item wx:for="{{list}}" wx:key="text" bind:tap="{{item.bindTap}}">
+        <view class="grid-item">
+          <van-icon class="grid-icon" slot="icon" name="{{item.icon}}"></van-icon>
+          <text class="grid-text"  slot="text">{{item.text}}</text>
+        </view>
+      </van-grid-item>
+    </van-grid> -->
+    <view class="grid-container">
+        <view class="grid-item" wx:for="{{list}}" wx:key="text" bind:tap="{{item.bindTap}}">
+          <van-icon class="grid-icon" slot="icon" name="{{item.icon}}"></van-icon>
+          <text class="grid-text"  slot="text">{{item.text}}</text>
+        </view>
+    </view>
+    <popup-B show="{{show}}" style="z-index: 99999;position: relative;"></popup-B>
+  </view>

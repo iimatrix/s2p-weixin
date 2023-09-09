@@ -1,0 +1,6 @@
+<!--pages/commonly/commonly.wxml-->
+<view>
+  <nav-bar title="常用页面"></nav-bar>
+  <text>常用页面</text>
+  <tab-bar></tab-bar>
+</view>

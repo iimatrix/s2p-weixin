@@ -1,0 +1,43 @@
+<view>
+  <!-- 自定义navbar  -->
+  <nav-bar title="{{title}}" info="{{info}}" showInfo></nav-bar>
+  <view>
+    <swiper indicator-dots="true"
+        autoplay="true" interval="4000" duration="500">
+        <block wx:for="{{swipers}}" wx:key="*this">
+          <swiper-item>
+           <image class="swiper-item-image" src="{{item}}" />
+          </swiper-item>
+        </block>
+    </swiper>
+  </view>
+
+  <!-- 功能列表 -->
+  <view class="function-list">
+      <view class="function-list-item">
+        <van-icon name="gift-o" />
+        <text class="item__text">功能1</text>
+      </view>
+      <view class="function-list-item">
+        <van-icon name="gem-o" />
+        <text class="item__text">功能2</text>
+      </view>
+      <view class="function-list-item">
+        <van-icon name="cart-o" />
+        <text class="item__text">功能3</text>
+      </view>
+      <view class="function-list-item">
+        <van-icon name="setting-o" />
+        <text class="item__text">功能4</text>
+      </view>
+      <view class="function-list-item">
+        <van-icon name="fire-o" />
+        <text class="item__text">功能5</text>
+      </view>
+  </view>
+
+  <!-- 网格功能 -->
+  <func-grid></func-grid>
+  <!-- tab bar -->
+    <tab-bar></tab-bar>
+</view>

@@ -1,0 +1,6 @@
+<!--pages/test/test.wxml-->
+<view>
+  <nav-bar title="助手页面"></nav-bar>
+  <text>助手页面</text>
+  <tab-bar></tab-bar>
+</view>

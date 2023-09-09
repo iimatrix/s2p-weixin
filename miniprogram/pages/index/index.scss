@@ -1,0 +1,36 @@
+$bgColor: #282a3a;
+$fontColor: #8a8b8d;
+page {
+  background-color: #f1f1f1;
+}
+
+
+.swiper-item-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.function-list {
+  display: flex;
+  background-color: $bgColor;
+  color: #fff;
+  font-size: 2rem;
+  padding: .5em 0;
+}
+
+.function-list-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item__text {
+  color: $fontColor;
+  font-size: .4em;
+}
+// ========================
+
+// =========================

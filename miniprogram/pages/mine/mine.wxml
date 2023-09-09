@@ -1,0 +1,6 @@
+<!--pages/mine/mine.wxml-->
+<view>
+  <nav-bar title="我的"></nav-bar>
+  <text>我的</text>
+  <tab-bar></tab-bar>
+</view>

@@ -1,0 +1,6 @@
+<!--pages/analysis/analysis.wxml-->
+<view>
+  <nav-bar title="分析页面"></nav-bar>
+  <text>分析页面</text>
+  <tab-bar></tab-bar>
+</view>

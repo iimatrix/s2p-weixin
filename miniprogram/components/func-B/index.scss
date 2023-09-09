@@ -1,0 +1,13 @@
+/* components/func-B/index.wxss */
+$bgColor: #282a3a;
+.popup-container {
+  width: 100%;
+}
+.popup-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  background-color: $bgColor;
+  color: #fff;
+}

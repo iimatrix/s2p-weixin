@@ -1,0 +1,36 @@
+<!--components/Tabbar.wxml-->
+<view  style="min-height: 200rpx;">
+  <van-tabbar active="{{ active }}" bind:change="onChange" active-color="#94be3a">
+    <van-tabbar-item >
+      <text>工作</text>
+      <van-icon name="orders-o" slot="icon" />
+      <van-icon name="column" slot="icon-active"></van-icon>
+    </van-tabbar-item>
+
+    <van-tabbar-item>
+      <van-icon name="smile-comment" slot="icon-active"></van-icon>
+      <van-icon name="smile-comment-o" slot="icon"></van-icon>
+      <text>助手</text>
+    </van-tabbar-item>
+    <van-tabbar-item>
+      <view class="middle-icon-wrapper">
+        <view class="middle-icon" >
+        <view class="middle-icon__inner">
+          <van-icon name="plus" slot="icon" color="#fff" />
+        </view>
+      </view>
+      <text class="middle-icon__text">常用</text>
+    </view>
+    </van-tabbar-item>
+    <van-tabbar-item>
+      <van-icon name="chart-trending-o" slot="icon"></van-icon>
+      <van-icon name="chart-trending-o" slot="icon-active"></van-icon>
+      <text>分析</text>
+    </van-tabbar-item>
+    <van-tabbar-item>
+      <van-icon name="manager" slot="icon-active"></van-icon>
+      <van-icon name="manager-o" slot="icon"></van-icon>
+      <text>我</text>
+    </van-tabbar-item>
+  </van-tabbar>
+</view>
